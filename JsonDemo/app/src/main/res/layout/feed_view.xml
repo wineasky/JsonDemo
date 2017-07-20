@@ -43,15 +43,15 @@
         android:layout_below="@+id/title"
         android:text="预览"
         android:textSize="13sp"/>
-
-    <TextView
+  
+ <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/look"
         android:text="查看次数"
         android:textSize="12sp"
-        android:layout_alignBottom="@+id/comment"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
         android:id="@+id/comment"
         android:text="评论次数"
         android:textSize="12sp"
-        android:layout_below="@+id/img"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
